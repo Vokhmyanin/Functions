@@ -1,6 +1,6 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
-/*int Add(int a, int b);  //Прототип функции (Объявление функции-function declaration
+/*int Add(int a, int b);  //РџСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё (РћР±СЉСЏРІР»РµРЅРёРµ С„СѓРЅРєС†РёРё-function declaration
 int Sub(int a, int b);
 int Mul(int a, int b);
 double Div(int a, int b);
@@ -9,8 +9,8 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int a, b;
-	cout << "Введите два числа: "; cin >> a >> b;
-	int c = Add(a, b); //Вызов, или использование ф-и (function call)
+	cout << "Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°: "; cin >> a >> b;
+	int c = Add(a, b); //Р’С‹Р·РѕРІ, РёР»Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С„-Рё (function call)
 	cout << a << "+" << b << "=" << c << endl;
 	cout << a << "-" << b << "=" << Sub(a,b) << endl;
 	cout << a << "*" << b << "=" << Mul(a,b) << endl;
@@ -18,20 +18,20 @@ void main()
 	
 
 }
-int Add(int a, int b) //Add -сложение (Реализация функции-function definition
+int Add(int a, int b) //Add -СЃР»РѕР¶РµРЅРёРµ (Р РµР°Р»РёР·Р°С†РёСЏ С„СѓРЅРєС†РёРё-function definition
 {
 	int c = a + b;
 	return c;
 }
-int Sub(int a, int b) //Subtraction -вычитание
+int Sub(int a, int b) //Subtraction -РІС‹С‡РёС‚Р°РЅРёРµ
 {
 	return a-b;
 }
-int Mul(int a, int b) //Multiplication -умножение
+int Mul(int a, int b) //Multiplication -СѓРјРЅРѕР¶РµРЅРёРµ
 {
 	return a * b;
 }
- double Div(int a, int b) //Division -деление
+ double Div(int a, int b) //Division -РґРµР»РµРЅРёРµ
 {
 	return (double)a / b;
 }
@@ -46,10 +46,10 @@ void main()
 {
 	setlocale(LC_ALL, "");
     int a, n;
-	cout << "Введите число: "; cin >> a;
-	cout << "Введите показатель степени: "; cin >> n;
-	cout << a << " " << "в степени  " << n << " равно " << Power(a,n) << endl;
-	cout << "Факториал числа " << a << " равен " << Factorial(a);
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: "; cin >> a;
+	cout << "Р’РІРµРґРёС‚Рµ РїРѕРєР°Р·Р°С‚РµР»СЊ СЃС‚РµРїРµРЅРё: "; cin >> n;
+	cout << a << " " << "РІ СЃС‚РµРїРµРЅРё  " << n << " СЂР°РІРЅРѕ " << Power(a,n) << endl;
+	cout << "Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° " << a << " СЂР°РІРµРЅ " << Factorial(a);
 }
 int Power(int a, int n)
 {
