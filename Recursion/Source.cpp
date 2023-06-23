@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 using namespace std;
 void elevator(int floor);
 int factorial(int n);
@@ -15,25 +15,25 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef ELEVATOR
 	int floor;
-	cout << "¬‚Â‰ËÚÂ ÌÓÏÂ ˝Ú‡Ê‡: "; cin >> floor;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –Ω–æ–º–µ—Ä —ç—Ç–∞–∂–∞: "; cin >> floor;
 	elevator(floor);
 #endif
 
 #ifdef FACT
 int n;
- cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ: "; cin >> n;
+ cout << "–í–≤–µ–¥–∏—Ç–µ —á–∏—Å–ª–æ: "; cin >> n;
 	cout << factorial(n) << endl;
 
 #endif
 #ifdef POWER
-int a; //ÓÒÌÓ‚‡ÌËÂ
-int n; //ÔÓÍ‡Á‡ÚÂÎ¸
-cout << "¬‚Â‰ËÚÂ ÓÒÌÓ‚‡ÌËÂ Ë ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË "; cin >> a >> n;
+int a; //–æ—Å–Ω–æ–≤–∞–Ω–∏–µ
+int n; //–ø–æ–∫–∞–∑–∞—Ç–µ–ª—å
+cout << "–í–≤–µ–¥–∏—Ç–µ –æ—Å–Ω–æ–≤–∞–Ω–∏–µ –∏ –ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏ "; cin >> a >> n;
 cout << power(a, n) << endl;
 #endif
 #ifdef FIBO
 long long int n;
-cout << "¬‚Â‰ËÚÂ ÔÂ‰ÂÎ¸ÌÓÂ ˜ËÒÎÓ: "; cin >> n;
+cout << "–í–≤–µ–¥–∏—Ç–µ –ø—Ä–µ–¥–µ–ª—å–Ω–æ–µ —á–∏—Å–ª–æ: "; cin >> n;
 fibo(n);
 #endif
 
@@ -48,12 +48,12 @@ void elevator(int floor)
 {
 	if (floor == 0)
 	{
-		cout << "¬˚ ‚ ÔÓ‰‚‡ÎÂ" << endl;
+		cout << "–í—ã –≤ –ø–æ–¥–≤–∞–ª–µ" << endl;
 		return;
 	}
-	cout << "¬˚ Ì‡  " << floor << "˝Ú‡ÊÂ\n";
+	cout << "–í—ã –Ω–∞  " << floor << "—ç—Ç–∞–∂–µ\n";
 	elevator(floor - 1);
-	cout << "¬˚ Ì‡  " << floor << "˝Ú‡ÊÂ\n";
+	cout << "–í—ã –Ω–∞  " << floor << "—ç—Ç–∞–∂–µ\n";
 }
 double power(int a, int n)
 {
